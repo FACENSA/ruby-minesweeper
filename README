@@ -1,0 +1,6 @@
+This is a Minesweeper built using Ruby. 
+
+This was first implemented during a Coding Dojo session at FACENSA, during August 28th 2010. 
+
+This Kata is based on the problem described here:
+http://codingdojo.org/cgi-bin/wiki.pl?KataMinesweeper
