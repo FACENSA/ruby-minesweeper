@@ -4,3 +4,7 @@ This was first implemented during a Coding Dojo session at FACENSA, during Augus
 
 This Kata is based on the problem described here:
 http://codingdojo.org/cgi-bin/wiki.pl?KataMinesweeper
+
+Gems used:
+rspec (1.3.0)
+
