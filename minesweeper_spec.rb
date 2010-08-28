@@ -1,4 +1,5 @@
 require 'minesweeper'
+require 'square'
 
 describe MineSweeper, "#build_field" do
   it "creates a field with  two lines and two columns" do
@@ -22,6 +23,10 @@ describe MineSweeper, "#build_field" do
 	field = MineSweeper.new(4,4)
 	field.top_left.should_not == nil
   end
-
+   
+   it "undestand a mine in the first position field " do
+	field = MineSweeper.new(4,4)
+	field.top_left.value.should === "*"
+  end
 
 end
